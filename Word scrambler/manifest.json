@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Word Scrambler",
+  "description": "Selecting words and clicking the icon will scramble them onto a popup page.",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": "icon2.png",
+    "default_popup": "page.html"
+  },
+
+  "background":{
+    "scripts": ["background.js"]
+  }
+}

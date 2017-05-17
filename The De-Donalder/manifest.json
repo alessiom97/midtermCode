@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+
+	"name": "De-Donalder 2000",
+	"description": "Clicking the icon will delete all mentions of Trump on the page",
+	"version": "1.0",
+
+	"permissions": [
+		"tabs",
+		"http://*/*",
+		"https://*/*"
+	],
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Search and De-Donald"
+	},
+
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
